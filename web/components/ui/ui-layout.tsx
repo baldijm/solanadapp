@@ -37,7 +37,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
       <div>
       <img 
       src='/solana-logo.png'
-      width={170}
+      width={88}
       />
       </div>
     </a>
