@@ -17,10 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Provider>
+                <Provider>
           <ClusterProvider>
             <SolanaProvider>
-              <UiLayout>{children}</UiLayout>
+              <UiLayout>  
+                {children}
+              </UiLayout>
             </SolanaProvider>
           </ClusterProvider>
         </Provider>
