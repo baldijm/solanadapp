@@ -25,3 +25,7 @@ body {
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 }
+
+.stroke-navbar {
+  stroke: white;
+}
