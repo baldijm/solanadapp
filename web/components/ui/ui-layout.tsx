@@ -38,7 +38,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
     href="/"
   >
     <Image
-      src="/solana-logo.png"
+      src="/logofull.png"
       width={125}
       alt="solana-logo"
       height={2}
