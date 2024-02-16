@@ -16,17 +16,21 @@ const links: { label: string; href: string }[] = [
 export default function DashboardFeature() {
   return (
     <div className='red'>
-      <div className='bg-white'>
-      </div>
-      <AppHero title="gm" subtitle="Say hi to your new Solana dApp." />
-      <div className="max-w-xl mx-auto py-6 sm:px-6 lg:px-8 text-center">
-        <div className="space-y-2">
+      <div className="w-full h-80 relative stickyy">
+  <video className="w-full h-full object-cover absolute top-0 left-0" autoPlay loop muted>
+    <source src="alien.mp4" type="video/mp4" />
+    Tu navegador no soporta el elemento de video.
+  </video>
+</div>
+      <AppHero title="gm" subtitle="Say hi to your new Solana dApp."/>
+      <div className="">
+        <div className="heroo">
           <p>Here are some helpful links to get you started.</p>
           {links.map((link, index) => (
             <div key={index}>
               <a
                 href={link.href}
-                className="link"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
               >

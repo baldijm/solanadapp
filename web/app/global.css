@@ -27,9 +27,40 @@ body {
 }
 
 .stroke-navbar {
-  stroke: black;
+  stroke: white;
 }
 
 .red {
   background-color: red;
+}
+
+.fixedd {
+  position: fixed;
+  top: 0;
+}
+
+.stickyy {
+  position: sticky;
+  top: 0;
+}
+
+.heroo {
+  position: relative;
+  background-color: black;
+  padding-bottom: 10rem;
+}
+
+.herooo {
+  position: relative;
+  background-color: black;
+  padding-bottom: 2rem;
+}
+
+.navbarr {
+  position: fixed;
+  z-index: 1;
+}
+
+.footerrr {
+  background-color: crimson;
 }
