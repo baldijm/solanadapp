@@ -15,7 +15,7 @@ const links: { label: string; href: string }[] = [
 
 export default function DashboardFeature() {
   return (
-    <div className='red'>
+    <div className='bg-dashboard'>
       <div className="w-full h-80 relative stickyy">
   <video className="w-full h-full object-cover absolute top-0 left-0" autoPlay loop muted>
     <source src="alien.mp4" type="video/mp4" />
@@ -24,7 +24,8 @@ export default function DashboardFeature() {
 </div>
       <AppHero title="gm" subtitle="Say hi to your new Solana dApp."/>
       <div className="">
-        <div className="heroo">
+        <div className="heroo glassmorphism
+        ">
           <p>Here are some helpful links to get you started.</p>
           {links.map((link, index) => (
             <div key={index}>

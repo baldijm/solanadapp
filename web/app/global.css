@@ -30,8 +30,8 @@ body {
   stroke: white;
 }
 
-.red {
-  background-color: red;
+.bg-dashboard {
+  background-color: black;
 }
 
 .fixedd {
@@ -63,4 +63,27 @@ body {
 
 .footerrr {
   background-color: crimson;
+}
+
+
+/* Cambia el color de fondo de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 2px;
+  background-color:transparent;
+}
+
+/* Cambia el color de la pista de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Cambia el color y estilo del botón de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: crimson;
+  border-radius: 5px;
+}
+
+/* Cambia el color cuando se desplaza el botón de la barra de desplazamiento */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
 }
