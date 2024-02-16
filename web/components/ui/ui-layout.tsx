@@ -33,41 +33,23 @@ export function UiLayout({ children }: { children: ReactNode }) {
     </button>
   </div>
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">
-      <div>
-        <Link href="/">
-        <Image 
-      src='/solana-logo.png'
-      width={88}
-      alt='solana-logo'
-      height={170}
-      />
-        </Link>
-      </div>
-    </a>
+  <a
+    className="btn btn-ghost normal-case text-xl"
+    href="/"
+  >
+    <Image
+      src="/solana-logo.png"
+      width={125}
+      alt="solana-logo"
+      height={2}
+    />
+  </a>
   </div>
   <div className="flex-none">
     <button className="btn btn-square btn-ghost">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-navbar"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
     </button>
-    <ul className="menu menu-horizontal px-1 space-x-2">
-            {pages.map(({ label, path }) => (
-              <li key={path}>
-                <Link
-                  className={pathname.startsWith(path) ? 'active' : ''}
-                  href={path}
-                >
-                  {label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-
   </div>
-  <div className="flex-none space-x-2">
-          <WalletButton />
-          <ClusterUiSelect />
-        </div>
 </div>
       <ClusterChecker>
         <AccountChecker />

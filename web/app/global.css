@@ -5,7 +5,7 @@
 html,
 body {
   height: 100%;
-  background-color: tomato;
+  background-color: lavender;
 }
 
 .wallet-adapter-button-trigger {
@@ -27,5 +27,9 @@ body {
 }
 
 .stroke-navbar {
-  stroke: white;
+  stroke: black;
+}
+
+.red {
+  background-color: red;
 }
