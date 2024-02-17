@@ -59,6 +59,9 @@ body {
 .navbarr {
   position: fixed;
   z-index: 1;
+  height: -webkit-fill-available;
+  background-color: black;
+  border-right-width: thin;
 }
 
 .footerrr {
@@ -86,4 +89,9 @@ body {
 /* Cambia el color cuando se desplaza el botón de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb:hover {
   background: white;
+}
+
+.content-center {
+  justify-content: center;
+  display: grid;
 }
