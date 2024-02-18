@@ -27,6 +27,11 @@ export function UiLayout({ children }: { children: ReactNode }) {
   return (
     <div className="h-full flex flex-col">
          <div className="navbarr">
+         <div className="content-center menu-dd">
+           <button className="btn btn-square btn-ghost">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-navbar"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+           </button>
+         </div>
           <div className="content-center">
            <a
              className="btn btn-ghost normal-case text-xl"
@@ -38,7 +43,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
                height={2}/>
            </a>
          </div>
-         <div className="content-center">
+         <div className="content-center menu-m">
            <button className="btn btn-square btn-ghost">
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-navbar"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
            </button>

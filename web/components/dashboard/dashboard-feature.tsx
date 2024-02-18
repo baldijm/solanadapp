@@ -23,9 +23,8 @@ export default function DashboardFeature() {
   </video>
 </div>
       <AppHero title="gm" subtitle="Say hi to your new Solana dApp."/>
-      <div className="">
-        <div className="heroo glassmorphism
-        ">
+      <div className="heroo">
+        <div className="heroo glassmorphism">
           <p>Here are some helpful links to get you started.</p>
           {links.map((link, index) => (
             <div key={index}>

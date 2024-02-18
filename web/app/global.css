@@ -32,11 +32,13 @@ body {
 
 .bg-dashboard {
   background-color: black;
+  padding-bottom: 35rem;
 }
 
 @media only screen and (max-width: 768px) {
   .bg-dashboard {
-    padding: unset;
+    padding-bottom: 10rem;
+    padding-left: 0rem;
   }
 }
 
@@ -53,7 +55,6 @@ body {
 .heroo {
   position: relative;
   background-color: black;
-  padding-bottom: 10rem;
 }
 
 .herooo {
@@ -61,7 +62,7 @@ body {
   background-color: black;
   padding-bottom: 2rem;
 }
-
+/* Navbar en horizontal */
 .navbarr {
   position: fixed;
   z-index: 1;
@@ -69,22 +70,19 @@ body {
   background-color: black;
   border-right-width: thin;
 }
+
+/* Navbar en vertical*/
 @media only screen and (max-width: 768px) {
   .navbarr {
     height: auto;
     width: -webkit-fill-available;
     background-color: black;
+    border-right-width: inherit;
+    border-bottom-width: thin;
+    justify-content: space-between;
+    display: flex;
   }
 }
-
-/*@media (max-width: 768px) {
-  .navbarr {
-    height: unset;
-    border-right-width: inherit;
-    width: -webkit-fill-available;
-  }
-  
-}*/
 
 .footerrr {
   background-color: crimson;
@@ -118,8 +116,33 @@ body {
   display: grid;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .content-center{
     display: inline-grid;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-m {
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+  .menu-d {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-dd {
+    display: inline-grid; /* Muestra el div en dispositivos móviles */
+  }
+}
+
+/* Estilos para dispositivos de escritorio (768px o más de ancho) */
+@media only screen and (min-width: 768px) {
+  .menu-dd {
+    display: none; /* Oculta el div en dispositivos de escritorio */
   }
 }
