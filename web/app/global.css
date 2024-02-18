@@ -34,6 +34,12 @@ body {
   background-color: black;
 }
 
+@media only screen and (max-width: 768px) {
+  .bg-dashboard {
+    padding: unset;
+  }
+}
+
 .fixedd {
   position: fixed;
   top: 0;
@@ -63,6 +69,22 @@ body {
   background-color: black;
   border-right-width: thin;
 }
+@media only screen and (max-width: 768px) {
+  .navbarr {
+    height: auto;
+    width: -webkit-fill-available;
+    background-color: black;
+  }
+}
+
+/*@media (max-width: 768px) {
+  .navbarr {
+    height: unset;
+    border-right-width: inherit;
+    width: -webkit-fill-available;
+  }
+  
+}*/
 
 .footerrr {
   background-color: crimson;
@@ -94,4 +116,10 @@ body {
 .content-center {
   justify-content: center;
   display: grid;
+}
+
+@media (max-width: 768px) {
+  .content-center{
+    display: inline-grid;
+  }
 }
