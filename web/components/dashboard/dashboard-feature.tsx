@@ -16,30 +16,12 @@ const links: { label: string; href: string }[] = [
 export default function DashboardFeature() {
   return (
     <div className='bg-dashboard'>
-      <div className="w-full h-80 relative stickyy">
-  <video className="w-full h-full object-cover absolute top-0 left-0" autoPlay loop muted>
-    <source src="alien.mp4" type="video/mp4" />
-    Tu navegador no soporta el elemento de video.
-  </video>
-</div>
-      <AppHero title="gm" subtitle="Say hi to your new Solana dApp."/>
-      <div className="heroo">
-        <div className="heroo glassmorphism">
-          <p>Here are some helpful links to get you started.</p>
-          {links.map((link, index) => (
-            <div key={index}>
-              <a
-                href={link.href}
-                className=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {link.label}
-              </a>
+            <div className="w-full h-80 relative stickyy">
+              <video className="w-full h-full object-cover absolute top-0 left-0" autoPlay loop muted>
+                <source src="alien.mp4" type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
             </div>
-          ))}
-        </div>
-      </div>
     </div>
   );
 }

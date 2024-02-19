@@ -32,7 +32,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-navbar"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
            </button>
          </div>
-          <div className="content-center">
+          <div className="content-center menu-ds">
            <a
              className="btn btn-ghost normal-case text-xl"
              href="/">
@@ -43,12 +43,12 @@ export function UiLayout({ children }: { children: ReactNode }) {
                height={2}/>
            </a>
          </div>
-         <div className="content-center menu-m">
+         <div className="content-center menu-m menu-ds">
            <button className="btn btn-square btn-ghost">
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-navbar"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
            </button>
          </div>
-         <div className="content-center">
+         <div className="content-center menu-ds">
           <button className="btn btn-square btn-ghost">
            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-navbar"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
          </button>
@@ -57,7 +57,7 @@ export function UiLayout({ children }: { children: ReactNode }) {
        <ClusterChecker>
          <AccountChecker />
        </ClusterChecker>
-    <div>
+    <div className='bg-10pad'>
      <Suspense
      fallback={
       <div className="text-center my-32">
