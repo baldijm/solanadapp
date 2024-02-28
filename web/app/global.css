@@ -75,7 +75,7 @@ body {
   position: fixed;
   z-index: 1;
   height: -webkit-fill-available;
-  background-color: black;
+  background-color: white;
   border-right-width: thin;
 }
 
@@ -84,7 +84,7 @@ body {
   .navbarr {
     height: auto;
     width: -webkit-fill-available;
-    background-color: black;
+    background-color: white;
     border-right-width: inherit;
     border-bottom-width: thin;
     justify-content: space-between;
